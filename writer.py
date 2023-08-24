@@ -9,11 +9,11 @@ def water_write(mas):
         f.write(f'Направляю данные потребления горячей и холодной воды по квартире 112'
                 f' за {months[datetime.datetime.now().month]} {datetime.datetime.now().year} года:\n')
         f.write('\nГорячая вода\n')
-        f.write(f'\n13-03-15191-АВ - {mas[2]}')
-        f.write(f'\n13-03-15192-АВ - {mas[0]}')
-        f.write(f'\n13-03-15197-АВ - {mas[4]}\n')
+        f.write(f'\n*191-АВ - {mas[2]}')
+        f.write(f'\n*92-АВ - {mas[0]}')
+        f.write(f'\n*97-АВ - {mas[4]}\n')
         f.write('\nХолодная вода\n')
-        f.write(f'\n13-04-29354-АВ - {mas[3]}')
-        f.write(f'\n13-04-29355-АВ - {mas[1]}')
-        f.write(f'\n13-04-29353-АВ - {mas[5]}')
+        f.write(f'\n*54-АВ - {mas[3]}')
+        f.write(f'\n*55-АВ - {mas[1]}')
+        f.write(f'\n*53-АВ - {mas[5]}')
 
